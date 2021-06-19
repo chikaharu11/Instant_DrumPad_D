@@ -138,21 +138,21 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        textView.text = "e808_bd_short_01"
-        textView2.text = "e808_bd_long_02"
-        textView3.text = "e808_bd_long_03"
-        textView4.text = "e808_rs09"
-        textView5.text = "e808_bd_short_05"
-        textView6.text = "e808_hc03"
-        textView7.text = "e808_lc08"
-        textView8.text = "e808_lt02"
-        textView9.text = "e808_cy04"
-        textView10.text = "e808_mc05"
-        textView11.text = "e808_cb07"
-        textView12.text = "e808_sd09"
-        textView13.text = "e808_bd_long_07"
-        textView14.text = "e808_lc10"
-        textView15.text = "e808_oh09"
+        textView.text = "fx16"
+        textView2.text = "fx20"
+        textView3.text = "fx23"
+        textView4.text = "fx31"
+        textView5.text = "fx35"
+        textView6.text = "fx36"
+        textView7.text = "fx42"
+        textView8.text = "fx47"
+        textView9.text = "fx56"
+        textView10.text = "g8bit_beat12_90bpm"
+        textView11.text = "g8bit_beat24_130bpm"
+        textView12.text = "g8bit_loop07_130bpm"
+        textView13.text = "ds_loop02_120bpm"
+        textView14.text = "gb_beat12_90bpm"
+        textView15.text = "gb_loop32b_90bpm"
 
         MobileAds.initialize(this) {}
 
@@ -577,7 +577,7 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
 
         mp = MediaPlayer()
 
-        supportActionBar?.title ="e808_loop_bd_8501"
+        supportActionBar?.title ="g8bit_beat01_120bpm"
 
 
             val audioUri = MediaStore.Audio.Media.INTERNAL_CONTENT_URI
@@ -686,37 +686,37 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
                 .setMaxStreams(20)
                 .build()
 
-        sound1 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound1 = soundPool.load(assets.openFd("fx16.ogg"), 1)
 
-        sound2 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound2 = soundPool.load(assets.openFd("fx20.ogg"), 1)
 
-        sound3 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound3 = soundPool.load(assets.openFd("fx23.ogg"), 1)
 
-        sound4 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound4 = soundPool.load(assets.openFd("fx31.ogg"), 1)
 
-        sound5 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound5 = soundPool.load(assets.openFd("fx35.ogg"), 1)
 
-        sound6 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound6 = soundPool.load(assets.openFd("fx36.ogg"), 1)
 
-        sound7 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound7 = soundPool.load(assets.openFd("fx42.ogg"), 1)
 
-        sound8 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound8 = soundPool.load(assets.openFd("fx47.ogg"), 1)
 
-        sound9 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound9 = soundPool.load(assets.openFd("fx56.ogg"), 1)
 
-        sound10 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound10 = soundPool.load(assets.openFd("g8bit_beat12_90bpm.ogg"), 1)
 
-        sound11 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound11 = soundPool.load(assets.openFd("g8bit_beat24_130bpm.ogg"), 1)
 
-        sound12 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound12 = soundPool.load(assets.openFd("g8bit_loop07_130bpm.ogg"), 1)
 
-        sound13 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound13 = soundPool.load(assets.openFd("ds_loop02_120bpm.ogg"), 1)
 
-        sound14 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound14 = soundPool.load(assets.openFd("gb_beat12_90bpm.ogg"), 1)
 
-        sound15 = soundPool.load(assets.openFd("ta.ogg"), 1)
+        sound15 = soundPool.load(assets.openFd("gb_loop32b_90bpm.ogg"), 1)
 
-        lmp = LoopMediaPlayer.create(this, Uri.parse("android.resource://" + packageName + "/raw/" + R.raw.ta))
+        lmp = LoopMediaPlayer.create(this, Uri.parse("android.resource://" + packageName + "/raw/" + R.raw.g8bit_beat01_120bpm))
 
 
         imageView.setOnTouchListener { _, event ->
