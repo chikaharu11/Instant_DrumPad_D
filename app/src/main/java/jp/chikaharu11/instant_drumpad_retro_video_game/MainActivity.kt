@@ -44,21 +44,21 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
 
     private val handler = Handler()
     private var audioName = ""
-    private var mpDuration = 1465
-    private var mpDuration2 = 799
-    private var mpDuration3 = 660
-    private var mpDuration4 = 1050
-    private var mpDuration5 = 862
-    private var mpDuration6 = 773
-    private var mpDuration7 = 2824
-    private var mpDuration8 = 2824
-    private var mpDuration9 = 2824
-    private var mpDuration10 = 2286
-    private var mpDuration11 = 2286
-    private var mpDuration12 = 2286
-    private var mpDuration13 = 1818
-    private var mpDuration14 = 1818
-    private var mpDuration15 = 1818
+    private var mpDuration = 234
+    private var mpDuration2 = 1251
+    private var mpDuration3 = 1193
+    private var mpDuration4 = 247
+    private var mpDuration5 = 324
+    private var mpDuration6 = 929
+    private var mpDuration7 = 1501
+    private var mpDuration8 = 1820
+    private var mpDuration9 = 904
+    private var mpDuration10 = 2667
+    private var mpDuration11 = 2667
+    private var mpDuration12 = 2664
+    private var mpDuration13 = 4002
+    private var mpDuration14 = 4001
+    private var mpDuration15 = 3994
     var start = 0
     var stop = 0
 
