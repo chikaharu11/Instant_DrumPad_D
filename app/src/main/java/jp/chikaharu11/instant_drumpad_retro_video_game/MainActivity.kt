@@ -54,11 +54,11 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
     private var mpDuration8 = 1820
     private var mpDuration9 = 904
     private var mpDuration10 = 2667
-    private var mpDuration11 = 2667
-    private var mpDuration12 = 2664
+    private var mpDuration11 = 5333
+    private var mpDuration12 = 2677
     private var mpDuration13 = 4002
-    private var mpDuration14 = 4001
-    private var mpDuration15 = 3994
+    private var mpDuration14 = 4026
+    private var mpDuration15 = 4000
     var start = 0
     var stop = 0
 
@@ -167,11 +167,11 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
         textView8.text = "fx47"
         textView9.text = "fx56"
         textView10.text = "g8bit_beat12_90bpm"
-        textView11.text = "g8bit_beat24_130bpm"
-        textView12.text = "g8bit_loop07_130bpm"
+        textView11.text = "g8bit_beat15_90bpm"
+        textView12.text = "gb_loop37_90bpm"
         textView13.text = "ds_loop02_120bpm"
-        textView14.text = "gb_beat12_90bpm"
-        textView15.text = "gb_loop32b_90bpm"
+        textView14.text = "gb_beat01_120bpm"
+        textView15.text = "g8bit_beat05_120bpm"
 
         MobileAds.initialize(this) {}
 
@@ -725,15 +725,15 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
 
         sound10 = soundPool.load(assets.openFd("g8bit_beat12_90bpm.ogg"), 1)
 
-        sound11 = soundPool.load(assets.openFd("g8bit_beat24_130bpm.ogg"), 1)
+        sound11 = soundPool.load(assets.openFd("g8bit_beat15_90bpm.ogg"), 1)
 
-        sound12 = soundPool.load(assets.openFd("g8bit_loop07_130bpm.ogg"), 1)
+        sound12 = soundPool.load(assets.openFd("gb_loop37_90bpm.ogg"), 1)
 
         sound13 = soundPool.load(assets.openFd("ds_loop02_120bpm.ogg"), 1)
 
-        sound14 = soundPool.load(assets.openFd("gb_beat12_90bpm.ogg"), 1)
+        sound14 = soundPool.load(assets.openFd("gb_beat01_120bpm.ogg"), 1)
 
-        sound15 = soundPool.load(assets.openFd("gb_loop32b_90bpm.ogg"), 1)
+        sound15 = soundPool.load(assets.openFd("g8bit_beat05_120bpm.ogg"), 1)
 
         lmp = LoopMediaPlayer.create(this, Uri.parse("android.resource://" + packageName + "/raw/" + R.raw.g8bit_beat01_120bpm))
 
