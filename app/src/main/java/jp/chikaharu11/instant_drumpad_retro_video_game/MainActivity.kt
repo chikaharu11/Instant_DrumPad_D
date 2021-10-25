@@ -988,7 +988,7 @@ class MainActivity : AppCompatActivity(), CustomAdapterListener {
 
         MobileAds.initialize(this) {}
         admobmAdView = AdView(this)
-        admobmAdView.adUnitId = "ca-app-pub-6154074228513535/3004446753"
+        admobmAdView.adUnitId = "ca-app-pub-3940256099942544/6300978111"
 
         admobmAdView.adListener = object : AdListener() {
             override fun onAdLoaded() {
